@@ -1,5 +1,7 @@
 # import the necessary packages
 from keras.preprocessing.image import img_to_array
+#from keras.models import load_model
+#uncomment the above line and comment the line below if you are training for the batchsize8 model
 from tensorflow.keras.models import load_model
 import numpy as np
 import argparse
