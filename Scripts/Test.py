@@ -23,7 +23,7 @@ pathToTestImageDirectory = args["testDir"]
 
 pathToModel = args["model"]
 
-list_of_images = list(paths.list_images(pathToImage))
+list_of_images = list(paths.list_images(pathToTestImageDirectory))
 
 print("[INFO] loading network...")
 model = load_model(pathToModel)
